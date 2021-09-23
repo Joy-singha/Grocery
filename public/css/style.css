@@ -1,0 +1,118 @@
+/*===============================*/
+/*######## Owl Carousel ########3*/
+/*===============================*/
+
+.owl-carousel .owl-nav{
+    margin-bottom: -10px;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+	background: #16cbaabe !important;
+	color: #fff !important;
+    font-size: 22px !important;
+	position: absolute;
+	padding: 0 !important;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 20px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50% !important;
+}
+
+.owl-carousel .owl-nav .owl-prev span {
+    height: 0px !important;
+}
+
+.owl-carousel .owl-nav .owl-next {
+	background: #16cbaabe !important;
+	color: #fff !important;
+    font-size: 22px !important;
+	position: absolute;
+	padding: 0 !important;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 20px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50% !important;
+}
+
+.owl-carousel .owl-nav .owl-next span {
+    height: 0px !important;
+}
+
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-next:hover{
+    background: rgba(0, 0, 0, 0.747) !important;
+    transition: .4s ease;
+}
+
+/*----===== Categoties =====------*/
+
+.categories-carousel .owl-nav .owl-prev {
+    left: -55px;
+}
+
+.categories-carousel .owl-nav .owl-next {
+    right: -55px;
+}
+
+
+
+/*===============================*/
+/*######### Responsive #########3*/
+/*===============================*/
+
+@media (max-width: 1100px) {
+    .owl-carousel .owl-nav .owl-prev,
+    .owl-carousel .owl-nav .owl-next{
+        font-size: 17px !important;
+        height: 30px;
+        width: 30px;
+    }
+
+    .categories-carousel .owl-nav .owl-prev {
+        left:-30px;
+    }
+
+    .categories-carousel .owl-nav .owl-next {
+        right:-30px;
+    }
+} 
+
+@media (max-width: 850px) {
+    .categories-carousel .owl-nav .owl-prev {
+        left:-20px;
+    }
+
+    .categories-carousel .owl-nav .owl-next {
+        right:-20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .owl-carousel .owl-nav .owl-prev {
+        left: 5px;
+        font-size: 13px !important;
+        height: 20px;
+        width: 20px;
+    }
+
+    .owl-carousel .owl-nav .owl-next {
+        right: 5px;
+        font-size: 13px !important;
+        height: 20px;
+        width: 20px;
+    }
+
+    .categories-carousel .owl-nav .owl-prev {
+        left: 5px;
+    }
+
+    .categories-carousel .owl-nav .owl-next {
+        right: 5px;
+    }
+
+}
+

@@ -1,0 +1,3 @@
+for install node modules:
+ 
+	npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
